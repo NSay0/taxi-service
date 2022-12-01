@@ -1,7 +1,7 @@
 <h1>🚕Taxi-service🚕 </h1>
 <h2>📝 Description:</h2>
 This is a simple web-application of taxi-service. <br>
-Project realised according to SOLID principles and has N-tire architecture. <br>
+Project was implemented according to SOLID principles and has N-tire architecture. <br>
 
 # <h2>🔥 Features:</h2>
 * Create new Car / Manufacturer / Driver
@@ -34,7 +34,7 @@ Project realised according to SOLID principles and has N-tire architecture. <br>
 2. Install MySQL
 3. Clone project from GitHub
 4. Use query from [init_db](src/main/java/taxi/util/ConnectionUtil.java) to create schema & tables.
-5. Configure [ConnectionUtil](src/main/java/taxi/util/ConnectionUtil.java), to connect with DB. <br>
+5. Configure [ConnectionUtil](src/main/resources/init_db.sql), to connect with DB. <br>
 (Set fields: URL, USERNAME, PASSWORD, JDBC_DRIVER to ur own)
 6. Configure TomCat for this project
 7. 🚀 Run & Enjoy 😺 
