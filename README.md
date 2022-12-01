@@ -33,8 +33,8 @@ Project was implemented according to SOLID principles and has N-tire architectur
 1. Install TomCat 9.0.69
 2. Install MySQL
 3. Clone project from GitHub
-4. Use query from [init_db](src/main/java/taxi/util/ConnectionUtil.java) to create schema & tables.
-5. Configure [ConnectionUtil](src/main/resources/init_db.sql), to connect with DB. <br>
+4. Use query from [init_db](src/main/resources/init_db.sql) to create schema & tables.
+5. Configure [ConnectionUtil](src/main/java/taxi/util/ConnectionUtil.java), to connect with DB. <br>
 (Set fields: URL, USERNAME, PASSWORD, JDBC_DRIVER to ur own)
 6. Configure TomCat for this project
 7. 🚀 Run & Enjoy 😺 
